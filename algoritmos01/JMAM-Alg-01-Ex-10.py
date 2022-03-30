@@ -1,0 +1,10 @@
+from math import log10
+a = int(input('Digite o valor de A: '))
+b = int(input('Digite o valor de B: '))
+print('\nA soma de A e B: ' + str(a + b))
+print('A diferença de A e B: ' + str(a - b))
+print('O produto de A e B: ' + str(a * b))
+print('O quociente de A e B: ' + str(a / b))
+print('O resto de A e B: ' + str(a % b))
+print('O log de A: ' + str(log10(a)))
+print('O resultado de A elevado a B: ' + str(a**b))

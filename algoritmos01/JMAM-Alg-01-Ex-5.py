@@ -1,0 +1,1 @@
+print('O total de créditos é: R$ {:.2f}'.format((float(input("Digite a quantidade de vasilhames de 1 litro ou menos: ")) * 0.10) + (float(input('Digite a quantidade de vasilhames de mais de 1 litro: ')) * 0.25)))

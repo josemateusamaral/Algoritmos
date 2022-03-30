@@ -1,0 +1,1 @@
+print('A área do triângulo é: ' + str((float(input('Informe o comprimento da base do triângulo: ')) * float(input('Informe a altura do triângulo: '))) / 2))

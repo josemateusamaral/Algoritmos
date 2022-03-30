@@ -1,0 +1,1 @@
+print('A área da sala é: ' + str(float(input("Informe o comprimento da sala: ")) * float(input("Informe a largura da sala: ")) * float(input("Informe a profundidade da sala: "))))

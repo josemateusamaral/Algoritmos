@@ -1,0 +1,1 @@
+print('A área do terreno em hectares é: ' + str((float(input('Digite a largura em metros quadrados: ')) * float(input('Digite o comprimento em metros quadrados: '))) / 10000))

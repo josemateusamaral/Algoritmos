@@ -1,0 +1,7 @@
+investimentoInicial = float(input("Digite seu investimento inicial: "))
+apos1ano = investimentoInicial + ((investimentoInicial / 100) * 12)
+apos2anos = apos1ano + ((apos1ano / 100) * 12)
+apos3anos = apos2anos + ((apos2anos / 100) * 12)
+print('Seu investimento após 1 ano: R$ {:.2f}'.format(apos1ano))
+print('Seu investimento após 2 anos: R$ {:.2f}'.format(apos2anos))
+print('Seu investimento após 3 anos: R$ {:.2f}'.format(apos3anos))

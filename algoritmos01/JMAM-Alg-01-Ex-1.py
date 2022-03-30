@@ -1,0 +1,1 @@
+print('Nome: José Mateus Amaral de Miranda \nEndereço: Fortaleza, Rua Miguel Servet, 211')
