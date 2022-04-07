@@ -1,0 +1,8 @@
+segundos = int(input('Digite a quantidade de segundos de um intervalo:'))
+dias = int(segundos/60/60/24)
+segundos = segundos % int(dias*60*60*24)
+horas = int(segundos/60/60)
+segundos = segundos % int(horas*60*60)
+minutos = int(segundos/60)
+segundos = segundos % int(minutos*60)
+print(f'Esse intervalo de tempo no formato DD:HH:MM:SS é: {dias}:{horas}:{minutos}:{segundos}')
