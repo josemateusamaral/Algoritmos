@@ -1,5 +1,5 @@
 import random
-primeiroNumero = int(input('Digite o primeiro númeor inteiro: '))
+primeiroNumero = int(input('Digite o primeiro número inteiro: '))
 segundoNumero = int(input('Digite o segundo número inteiro: '))
 terceiroNumero = int(input('Digite o terceiro número inteiro: '))
 menor = min(primeiroNumero,segundoNumero,terceiroNumero)

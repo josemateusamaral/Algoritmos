@@ -1,5 +1,5 @@
 data = int(input('Digite um número de mátricula no formato AASDDD: '))
-digito1 = int(data % 10)
+digito1 = int(data % 10)s
 digito2 = int((data % 100) - digito1) // 10
 digito3 = int((data % 1000) - digito2) // 100
 digito4 = int((data % 10000) - digito3) // 1000
