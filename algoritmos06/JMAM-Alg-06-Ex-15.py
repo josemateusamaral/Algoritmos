@@ -11,24 +11,26 @@ def tokenise(string):
     for index,char in enumerate(string):
 
         if char in ['/','*','^','(',')','=']:
-            if numero != '': token.append(numero)
-            token.append(char)
+            if numero != '':
+                token.append(int(numero))
             numero = ''
+            token.append(char)
 
         elif char in ['-','+']:
-            if string[index-1] in '0987654321)+-':
+            if string[index-1] in '0987654321)' and index != 0:
                 if numero != '':
-                    token.append(numero)
-                    token.append(char)
-                    numero = ''
-                else:
-                    numero += char
+                    token.append(int(numero))
+                numero = ''
+                token.append(char)
+            else:
+                numero += char
 
         elif char in '0987654321':
             numero += char
             if index + 1 == len(string):
-                if numero != '': token.append(numero)
-            
+                if numero != '':
+                    token.append(int(numero))
+
     return token
 
 def main():
